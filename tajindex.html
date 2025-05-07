@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taj Hair Stylists</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="tajstyle.css" />
+  </head>
+<body>
+  <header class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1 class="display-4 fw-bold">Taj Hair Stylists</h1>
+      <p class="lead fst-italic">Your classic men's grooming salon</p>
+      <a href="#appointment" class="cta-btn mt-3">Book an Appointment</a>
+    </div>
+  </header>
+
+  <section class="container py-5" id="about" data-aos="fade-up">
+    <h2 class="section-title text-center">About Us</h2>
+    <p class="text-center">Located in the heart of Jabalpur, Taj Hair Stylists is a classic men’s salon dedicated to providing top-quality grooming services. We blend modern techniques with timeless styles to help every gentleman look and feel his best.</p>
+  </section>
+
+  <section class="container py-5" id="services" data-aos="fade-up">
+    <h2 class="section-title text-center">Popular Services</h2>
+    <div class="row text-center">
+      <div class="col-md-4" data-aos="zoom-in">
+        <div class="p-4 service-card bg-light rounded shadow-sm">
+          <h4>Hair Cut</h4>
+          <p>₹150</p>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="p-4 service-card bg-light rounded shadow-sm">
+          <h4>Shaving</h4>
+          <p>₹80</p>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+        <div class="p-4 service-card bg-light rounded shadow-sm">
+          <h4>Vitamin C Massage</h4>
+          <p>₹500</p>
+        </div>
+      </div>
+    </div>
+    <p class="text-center mt-3">These are our most popular services — but we offer much more!</p>
+  </section>
+
+  <section class="container py-5" id="reviews" data-aos="fade-up">
+    <h2 class="section-title text-center">Customer Reviews</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="review">
+          <strong>Rohit K.</strong>
+          <p>Excellent haircut and great vibes. Highly recommend!</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="review">
+          <strong>Akash S.</strong>
+          <p>Best shaving experience I’ve had in years. Very hygienic!</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="review">
+          <strong>Vikram M.</strong>
+          <p>The Vitamin C massage was relaxing and refreshing.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container py-5" id="appointment" data-aos="fade-up">
+    <h2 class="section-title text-center">Book an Appointment</h2>
+    <form class="w-75 mx-auto">
+      <div class="row">
+        <div class="col-md-6">
+          <input type="text" class="form-control" placeholder="Your Name" required>
+        </div>
+        <div class="col-md-6">
+          <input type="tel" class="form-control" placeholder="Phone Number" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <input type="date" class="form-control" required>
+        </div>
+        <div class="col-md-6">
+          <input type="time" class="form-control" required>
+        </div>
+      </div>
+      <div class="mb-3">
+        <select class="form-select" required>
+          <option value="">Select a Service</option>
+          <option>Hair Cut</option>
+          <option>Shaving</option>
+          <option>Vitamin C Massage</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <textarea class="form-control" rows="3" placeholder="Additional Notes (Optional)"></textarea>
+      <div class="text-center mt-3">
+        <button type="submit" class="cta-btn">Submit Appointment</button>
+      </div>
+    </form>
+  </section>
+
+  <section class="container py-5" id="contact" data-aos="fade-up">
+    <h2 class="section-title text-center">Visit Us</h2>
+    <p class="text-center">We are open every day from 10 AM to 8 PM</p>
+    <p class="text-center">Address: 5X63+VWH, Prestige Town, South Civil Lines, Jabalpur, Madhya Pradesh 482001</p>
+    <div class="text-center">
+      <a href="https://www.google.com/maps?q=23.162174694652077,79.95487660521758" target="_blank" class="cta-btn">View on Google Maps</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Taj Hair Stylists. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<style>
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #f8f4f0;
+      color: #333;
+    }
+    header.hero {
+      background: url('https://images.unsplash.com/photo-1613553487870-6f8c2d211ecb') center/cover no-repeat;
+      position: relative;
+      padding: 8rem 2rem;
+      color: white;
+      text-align: center;
+    }
+    .hero .overlay {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 1;
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+    }
+    .section-title {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .service-card {
+      transition: transform 0.3s ease-in-out;
+    }
+    .service-card:hover {
+      transform: scale(1.05);
+    }
+    .cta-btn {
+      background-color: #b48c58;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      color: white;
+      border-radius: 30px;
+      text-decoration: none;
+    }
+    .review {
+      background-color: #fff3e0;
+      padding: 1rem;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      padding: 1.5rem 0;
+      text-align: center;
+    }
+    form input, form textarea, form select {
+      margin-bottom: 1rem;
+    }
+  </style>
